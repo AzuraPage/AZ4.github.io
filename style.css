@@ -1,0 +1,163 @@
+*{font-family: "Roboto", sans-serif;}
+
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    background-image: url(imagen/background.gif);
+    background-repeat: repeat-x;
+
+}
+
+header{padding-bottom: 210px;}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    border-bottom: 1px solid rgb(0, 217, 255);
+}
+
+
+.profileDiscord{
+    display: flex;
+    align-items: center;
+
+}
+
+.IconDiscord img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 100%;
+    border: 1px rgb(0, 217, 255) solid;
+    margin-right: 5px;
+
+}
+
+.userDiscord h2{
+    font-size: 16px; 
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.userDiscord h3{
+    font-size: 12px;
+     margin-top: 1px;
+     color: white;
+     font-weight: 5;
+    }
+
+.bar ul{list-style-type: none;}
+.bar{display: flex;}
+.bar a{
+    color: white; 
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bar a:hover{
+    color: rgb(0, 204, 255);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    background-color: rgb(37, 37, 37);
+    margin-left: 350px;
+    margin-right: 500px;
+    padding: 20px 30px 20px 45px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+
+.Incognite img{
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgb(0, 217, 255);
+
+}
+
+.About{
+    margin-left: 15px;
+    color: rgb(0, 217, 255);
+
+}
+.About h1 ,h2 ,p{
+    font-weight: 150;
+}
+.About h1{font-size: 35px; margin-bottom: 10px;} 
+.About h2{font-size: 25px; margin: 0; margin-bottom: 10px;}
+.About p{font-size: 18px; color: white;}
+
+.text{color: white; 
+    font-size: 17px;
+     display: flex; 
+     justify-content: center;
+      margin-right: 120px;}
+
+      .text2{color: white; 
+        font-size: 17px;
+         display: flex; 
+         justify-content: center;
+          margin-right: 120px;}
+
+          .text3{color: rgb(0, 217, 255); 
+            font-size: 17px;
+             display: flex; 
+             justify-content: center;
+              margin-right: 90px;}
+
+.languages{display: flex; justify-content: center;}
+
+.languages img{
+    width: 130px; 
+    height: 130px;
+     padding-right: 100px; 
+     margin-bottom: 100px;}
+
+.Find img{width: 300px; height: 300px;}
+
+.Find{display: flex; justify-content: center; margin-right: 80px; margin-bottom: 130px;}
+
+.Find div{
+     width: 300px;
+    background-color: rgb(32, 32, 32);
+     color: white; 
+     padding: 15px;
+     margin-left: 40px;
+    border-radius: 7px;
+    }
+
+    .youtube:hover{
+        background-color: rgb(49, 49, 49);
+    }
+    .Roblox:hover{
+        background-color: rgb(49, 49, 49);
+    }
+    .Beta:hover{
+        background-color: rgb(49, 49, 49);
+    }
+
+.scriptShowcase{display: flex; justify-content: center; margin-bottom: 160px;}
+.scriptShowcase video{border: 1px solid rgb(0, 217, 255);}
+
+.info{display: flex; justify-content: space-around; border-top: 1px solid rgb(0, 217, 255);}
+
+
+.info h2{margin-bottom: 20px; color: rgb(0, 217, 255); font-size: 20px;}
+.info a{color: white; text-decoration: none; font-size: 18px;}
+
+.derechos{
+    color:  white;
+     display: flex;
+     justify-content: center;
+      margin-top: 20px;
+       font-size: 12px;} 
